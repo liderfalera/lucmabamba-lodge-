@@ -5,7 +5,20 @@ module.exports = {
     "./src/**/*.{js,ts,jsx,tsx}"
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        'myprimary': '#47D7AC',
+        'myblack': '#11111F',
+        'mygray': '#818190',
+        'mygraylight': '#B4B4B4',
+        'mywhite': '#FFFFFF'
+      },
+      fontFamily: {
+        'sen': ['Sen', 'sans-serif'],
+        'montserrat': ['Montserrat', 'sans-serif'],
+      }
+    },
+
   },
   plugins: [],
 }
