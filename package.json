@@ -4,13 +4,17 @@
 	"version": "0.0.0",
 	"type": "module",
 	"scripts": {
-		"dev": "vite",
+		"dev": "vite --host",
 		"build": "vite build",
 		"preview": "vite preview"
 	},
 	"dependencies": {
+		"i18next": "^22.4.13",
+		"i18next-browser-languagedetector": "^7.0.1",
 		"react": "^18.2.0",
-		"react-dom": "^18.2.0"
+		"react-dom": "^18.2.0",
+		"react-i18next": "^12.2.0",
+		"react-scroll": "^1.8.9"
 	},
 	"devDependencies": {
 		"@types/react": "^18.0.28",
