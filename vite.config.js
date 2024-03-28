@@ -7,7 +7,7 @@ import path from 'path'
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react(), svgr()],
-  base: "/lucmabamba-lodge-",
+  base: "https://liderfalera.github.io/lucmabamba-lodge-/",
   resolve: {
     alias: {
       '@assets': path.resolve(__dirname, './src/assets'),
